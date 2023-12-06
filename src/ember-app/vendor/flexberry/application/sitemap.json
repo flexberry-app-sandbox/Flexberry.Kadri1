@@ -1,0 +1,50 @@
+﻿{
+  "applicationCaption": "Kadri",
+  "applicationTitle": "Kadri",
+  "items": [
+    {
+      "link": null,
+      "menuName": "отдел-кадров",
+      "caption": "Отдел кадров",
+      "title": "Отдел кадров",
+      "children": [
+        {
+          "link": "i-i-s-kadri-контроль-т-з-l",
+          "menuName": null,
+          "caption": "Контроль_ ТЗ",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kadri-анкеты-l",
+          "menuName": null,
+          "caption": "Анкеты",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kadri-должности-l",
+          "menuName": null,
+          "caption": "Должности",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kadri-отделы-l",
+          "menuName": null,
+          "caption": "Отделы",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kadri-сотрудники-l",
+          "menuName": null,
+          "caption": "Сотрудники",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

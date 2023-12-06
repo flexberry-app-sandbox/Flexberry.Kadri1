@@ -1,0 +1,1 @@
+docker-compose -p kadri-java up -d

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kadri-анкеты-e",
+  "editForm": "i-i-s-kadri-анкеты-e",
+  "external": false,
+  "caption": "Анкеты",
+  "name": "IISKadriАнкетыL",
+  "className": "АнкетыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kadri-анкеты",
+      "modelProjection": "АнкетыL"
+    }
+  ]
+}

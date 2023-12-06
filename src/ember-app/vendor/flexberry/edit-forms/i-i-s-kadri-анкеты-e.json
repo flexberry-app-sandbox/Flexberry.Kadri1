@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Вакансия",
+      "projection": "ДолжностиL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Анкеты",
+  "name": "IISKadriАнкетыE",
+  "className": "АнкетыE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kadri-анкеты",
+      "modelProjection": "АнкетыE"
+    }
+  ]
+}

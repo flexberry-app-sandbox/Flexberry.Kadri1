@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Отделы",
+  "name": "IISKadriОтделыE",
+  "className": "ОтделыE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kadri-отделы",
+      "modelProjection": "ОтделыE"
+    }
+  ]
+}

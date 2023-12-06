@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kadri.Objects", "Objects/Kadri.Objects.csproj", "450f6894-0426-4f0e-ba29-bd0fba63890f"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kadri.Tests", "Tests/Kadri.Tests.csproj", "d5cfda8e-0faf-46c9-9de9-a33b22af41a5"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kadri.ODataBackend", "ODataBackend/Kadri.ODataBackend.csproj", "379c6b6f-0b6f-4cc2-b2f0-705cc8087ee9"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kadri.IntegrationTests", "IntegrationTests/Kadri.IntegrationTests.csproj", "4315c528-0acd-4085-9bfd-176b8796bbf1"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+Debug|Any CPU = Debug|Any CPU
+Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		450f6894-0426-4f0e-ba29-bd0fba63890f.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		450f6894-0426-4f0e-ba29-bd0fba63890f.Debug|Any CPU.Build.0 = Debug|Any CPU
+		450f6894-0426-4f0e-ba29-bd0fba63890f.Release|Any CPU.ActiveCfg = Release|Any CPU
+		450f6894-0426-4f0e-ba29-bd0fba63890f.Release|Any CPU.Build.0 = Release|Any CPU
+		d5cfda8e-0faf-46c9-9de9-a33b22af41a5.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		d5cfda8e-0faf-46c9-9de9-a33b22af41a5.Debug|Any CPU.Build.0 = Debug|Any CPU
+		d5cfda8e-0faf-46c9-9de9-a33b22af41a5.Release|Any CPU.ActiveCfg = Release|Any CPU
+		d5cfda8e-0faf-46c9-9de9-a33b22af41a5.Release|Any CPU.Build.0 = Release|Any CPU
+		379c6b6f-0b6f-4cc2-b2f0-705cc8087ee9.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		379c6b6f-0b6f-4cc2-b2f0-705cc8087ee9.Debug|Any CPU.Build.0 = Debug|Any CPU
+		379c6b6f-0b6f-4cc2-b2f0-705cc8087ee9.Release|Any CPU.ActiveCfg = Release|Any CPU
+		379c6b6f-0b6f-4cc2-b2f0-705cc8087ee9.Release|Any CPU.Build.0 = Release|Any CPU
+		4315c528-0acd-4085-9bfd-176b8796bbf1.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		4315c528-0acd-4085-9bfd-176b8796bbf1.Debug|Any CPU.Build.0 = Debug|Any CPU
+		4315c528-0acd-4085-9bfd-176b8796bbf1.Release|Any CPU.ActiveCfg = Release|Any CPU
+		4315c528-0acd-4085-9bfd-176b8796bbf1.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

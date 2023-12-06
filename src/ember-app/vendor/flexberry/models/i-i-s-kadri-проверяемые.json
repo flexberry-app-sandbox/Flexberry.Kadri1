@@ -1,0 +1,77 @@
+﻿{
+  "name": "IISKadriПроверяемые",
+  "modelName": "i-i-s-kadri-проверяемые",
+  "className": "Проверяемые",
+  "nameSpace": "IIS.Kadri",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "результат",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": true,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "сотрудник",
+      "relatedTo": "i-i-s-kadri-сотрудники",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "контроль_ТЗ",
+      "relatedTo": "контроль-т-з",
+      "inverse": "проверяемые"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ПроверяемыеE",
+      "modelName": "i-i-s-kadri-проверяемые",
+      "attrs": [
+        {
+          "name": "результат",
+          "caption": "Результат",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "ФИО",
+          "lookupValueField": "фИО",
+          "relationName": "Сотрудник",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фИО",
+              "caption": "ФИО",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Сотрудник",
+          "name": "сотрудник",
+          "relatedTo": "i-i-s-kadri-сотрудники",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

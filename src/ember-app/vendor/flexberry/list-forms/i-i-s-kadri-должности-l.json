@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kadri-должности-e",
+  "editForm": "i-i-s-kadri-должности-e",
+  "external": false,
+  "caption": "Должности",
+  "name": "IISKadriДолжностиL",
+  "className": "ДолжностиL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kadri-должности",
+      "modelProjection": "ДолжностиL"
+    }
+  ]
+}

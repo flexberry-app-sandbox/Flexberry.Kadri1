@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kadri-отделы-e",
+  "editForm": "i-i-s-kadri-отделы-e",
+  "external": false,
+  "caption": "Отделы",
+  "name": "IISKadriОтделыL",
+  "className": "ОтделыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kadri-отделы",
+      "modelProjection": "ОтделыL"
+    }
+  ]
+}

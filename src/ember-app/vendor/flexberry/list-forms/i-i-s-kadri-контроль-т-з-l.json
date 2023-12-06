@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kadri-контроль-т-з-e",
+  "editForm": "i-i-s-kadri-контроль-т-з-e",
+  "external": false,
+  "caption": "Контроль_ ТЗ",
+  "name": "IISKadriКонтроль_ТЗL",
+  "className": "Контроль_ТЗL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "контроль-т-з",
+      "modelProjection": "Контроль_ТЗL"
+    }
+  ]
+}
